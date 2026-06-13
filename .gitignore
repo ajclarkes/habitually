@@ -1,0 +1,10 @@
+# Python venv (lives inside api/)
+api/bin/
+api/lib/
+api/include/
+api/pyvenv.cfg
+
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
