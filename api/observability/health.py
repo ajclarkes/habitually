@@ -1,5 +1,6 @@
 from dataclasses import dataclass, asdict
 
+
 @dataclass
 class HealthStatus:
     status: str
@@ -13,7 +14,6 @@ class HealthStatus:
 
 
 class HealthCheck:
-
     @staticmethod
     def get_status() -> HealthStatus:
         return HealthStatus.ok()
