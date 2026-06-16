@@ -25,6 +25,16 @@ python manage.py runserver
 pytest
 ```
 
+## Format your code
+
+```bash
+# To auto-format the code...
+ruff format
+
+# To check formatting...
+ruff check
+```
+
 ## Endpoints
 
 | Method | Path | Description |
